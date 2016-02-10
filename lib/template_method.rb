@@ -8,13 +8,13 @@ class Hero
   end
 
   def greet
-  	greeting = ["Hello"]
-  	greeting << unique_greeting_line
-  	greeting
+    greeting = ["Hello"]
+    greeting << unique_greeting_line
+    greeting
   end
 
   def unique_greeting_line
-  	raise "You must define unique_greeting_line"
+    raise "You must define unique_greeting_line"
   end
 
   def damage_rating
@@ -45,7 +45,7 @@ class Warrior < Hero
   end
 
   def unique_greeting_line
-  	"Warrior is ready to fight"
+    "Warrior is ready to fight"
   end
 end
 
